@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/output.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#f7f7f7] text-[#1f2937]">
+
+  <header class="w-full">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
+
+      <nav class="hidden items-center gap-8 text-sm font-medium text-gray-600 md:flex">
+        <a href="#booking" class="transition hover:text-[#22c55e]">Booking</a>
+        <a href="#facilities" class="transition hover:text-[#22c55e]">Facilities</a>
+        <a href="#about" class="transition hover:text-[#22c55e]">About Us</a>
+        <a href="#location" class="transition hover:text-[#22c55e]">Location</a>
+        <a href="#contact" class="transition hover:text-[#22c55e]">Contact</a>
+      </nav>
+
+      <a href="#" class="rounded-full bg-[#22c55e] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:scale-105 hover:bg-[#16a34a]">Login</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="mx-auto grid max-w-7xl gap-10 px-6 py-10 lg:grid-cols-2 lg:items-center lg:px-10 lg:py-16">
+      <div class="relative">
+        <div class="overflow-hidden rounded-[28px] bg-[#d9eaf3] shadow-md">
+          <img src="./img/image.png" alt="Main hotel" class="h-full min-h-[340px] w-full object-cover" />
+        </div>
+
+        <div class="absolute -bottom-8 left-0 w-[250px] rounded-2xl bg-white p-4 shadow-xl">
+          <div class="flex items-start gap-3">
+            <div class="h-12 w-12 overflow-hidden rounded-full bg-gray-200">
+              <img src="./img/foto.jpg" alt="User avatar" class="h-full w-full object-cover" />
+            </div>
+            <div>
+              <h3 class="text-base font-semibold text-[#111827]">Milan Jack</h3>
+              <p class="text-xs text-gray-500">Hotel viewer, UK</p>
+              <div class="mt-1 flex text-sm text-[#f97316]">★★★★★</div>
+            </div>
+          </div>
+          <p class="mt-3 text-sm leading-6 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem beatae error laborum.
+          </p>
+        </div>
+
+        <div class="mt-4 flex gap-3 pl-24 sm:pl-32 lg:pl-36">
+          <div class="h-14 w-14 overflow-hidden rounded-xl bg-white shadow">
+            <img src="#" alt="Preview 1" class="h-full w-full object-cover" />
+          </div>
+          <div class="h-14 w-14 overflow-hidden rounded-xl bg-white shadow">
+            <img src="./img/image.png" alt="Preview 2" class="h-full w-full object-cover" />
+          </div>
+          <div class="h-14 w-14 overflow-hidden rounded-xl bg-white shadow">
+            <img src="./img/image.png" alt="Preview 3" class="h-full w-full object-cover" />
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:pl-8">
+        <p class="mb-3 text-sm font-semibold text-[#22c55e]">London Sweet Apartment</p>
+        <h1 class="max-w-lg text-4xl font-extrabold leading-tight text-[#111827] sm:text-5xl">
+          Danubius Hotel Regents Park
+        </h1>
+
+        <div class="mt-5 flex items-center gap-5">
+          <p class="text-2xl font-bold text-[#111827]">$200 Par Night</p>
+          <div class="flex items-center gap-2 text-sm text-gray-500">
+            <span class="text-[#ef4444]">★★★★★</span>
+            <span>4.8</span>
+          </div>
+        </div>
+
+        <p class="mt-6 max-w-xl text-base leading-8 text-gray-500">
+          Feel perfect rest and comfort in a modern hotel with elegant rooms, premium facilities,
+          fresh atmosphere, and excellent service. This layout is built to look very similar to the design,
+          with clean spacing, soft corners, and a luxury hotel landing style.
+        </p>
+
+        <a href="#booking" class="mt-8 inline-flex rounded-full bg-[#22c55e] px-8 py-4 text-sm font-semibold text-white shadow-md transition hover:scale-105 hover:bg-[#16a34a]">
+          To book Now
+        </a>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-6 py-14 lg:px-10">
+      <div class="mb-10 flex items-end justify-between gap-4">
+        <div>
+          <h2 class="text-3xl font-extrabold text-[#111827] sm:text-4xl">Our most popular Hotels</h2>
+          <p class="mt-3 max-w-xl text-gray-500">
+            Lorem ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+        <a href="#" class="rounded-full bg-[#eaf8ef] px-5 py-2 text-sm font-semibold text-[#22c55e] transition hover:bg-[#d9f3e2]">View All</a>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <article class="overflow-hidden rounded-[28px] bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+          <img src="./img/image.png" alt="Hotel 1" class="h-72 w-full object-cover" />
+          <div class="p-5">
+            <p class="text-xs font-semibold uppercase tracking-wide text-[#22c55e]">London sweet apartment</p>
+            <h3 class="mt-2 text-2xl font-bold text-[#111827]">Danubius Hotel Regents Park</h3>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-sm font-medium text-gray-500">$200 Par Night</p>
+              <div class="flex items-center gap-2 text-sm text-gray-500">
+                <span class="text-[#ef4444]">★★★★★</span>
+                <span>4.8</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-[28px] bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+          <img src="./img/image 2.png" alt="Hotel 2" class="h-72 w-full object-cover" />
+          <div class="p-5">
+            <p class="text-xs font-semibold uppercase tracking-wide text-[#22c55e]">Hotel sweet apartment</p>
+            <h3 class="mt-2 text-2xl font-bold text-[#111827]">The Resident Soho</h3>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-sm font-medium text-gray-500">$200 Par Night</p>
+              <div class="flex items-center gap-2 text-sm text-gray-500">
+                <span class="text-[#ef4444]">★★★★★</span>
+                <span>4.8</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-[28px] bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+          <img src="./img/image 3.png" alt="Hotel 3" class="h-72 w-full object-cover" />
+          <div class="p-5">
+            <p class="text-xs font-semibold uppercase tracking-wide text-[#22c55e]">London sweet apartment</p>
+            <h3 class="mt-2 text-2xl font-bold text-[#111827]">London Bridge Hotel</h3>
+            <div class="mt-4 flex items-center justify-between">
+              <p class="text-sm font-medium text-gray-500">$200 Par Night</p>
+              <div class="flex items-center gap-2 text-sm text-gray-500">
+                <span class="text-[#ef4444]">★★★★★</span>
+                <span>4.8</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="mx-auto grid max-w-7xl gap-8 px-6 py-10 lg:grid-cols-2 lg:px-10">
+      <div class="overflow-hidden rounded-[30px] bg-white shadow-sm">
+        <img src="./img/image 4.png" alt="History hotel" class="h-full min-h-[420px] w-full object-cover" />
+      </div>
+      <div class="flex flex-col justify-center rounded-[30px] bg-[#eef7f1] p-8 sm:p-12">
+        <h2 class="text-4xl font-extrabold text-[#111827]">Discover our History</h2>
+        <p class="mt-6 text-base leading-8 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's.
+        </p>
+        <p class="mt-4 text-base leading-8 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy.
+        </p>
+        <p class="mt-4 text-base leading-8 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <a href="#" class="mt-8 inline-flex w-fit rounded-full bg-[#22c55e] px-7 py-3 text-sm font-semibold text-white shadow-md transition hover:scale-105 hover:bg-[#16a34a]">
+          Explore More
+        </a>
+      </div>
+    </section>
+
+    <section class="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
+      <div>
+        <h2 class="max-w-sm text-4xl font-extrabold leading-tight text-[#111827]">
+          Frequently Asked <span class="text-[#22c55e]">Questions</span>
+        </h2>
+        <p class="mt-5 max-w-sm text-gray-500">
+          You can book messages 7 days a week from 5 am to 11 pm, including public holidays.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <details class="group rounded-2xl border border-gray-300 bg-white p-6 shadow-sm" open>
+          <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-semibold text-[#111827]">
+            How Far Is Nearest Bus Station ?
+            <span class="text-2xl transition group-open:rotate-180">⌃</span>
+          </summary>
+          <p class="mt-4 text-sm leading-7 text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </details>
+
+        <details class="group rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
+          <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-semibold text-[#111827]">
+            Why this project is better than others ?
+            <span class="text-2xl transition group-open:rotate-180">⌄</span>
+          </summary>
+          <p class="mt-4 text-sm leading-7 text-gray-500">
+            We provide clean rooms, fast booking, trusted reviews, and luxury experience in one place.
+          </p>
+        </details>
+
+        <details class="group rounded-2xl border border-gray-300 bg-white p-6 shadow-sm">
+          <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-semibold text-[#111827]">
+            Estimated time of completion ?
+            <span class="text-2xl transition group-open:rotate-180">⌄</span>
+          </summary>
+          <p class="mt-4 text-sm leading-7 text-gray-500">
+            Most booking confirmations arrive very fast after payment and room selection.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section class="mx-auto grid max-w-7xl gap-0 px-6 py-10 lg:grid-cols-[1fr_1.2fr] lg:px-10">
+      <div class="z-10 mx-auto flex min-h-[360px] w-full max-w-md items-center justify-center rounded-[34px] lg:mx-0 lg:-mr-10">
+        <div>
+          <img src="./img/Perfect Place 1.png" alt=""></h3>
+        </div>
+      </div>
+
+      <div class="rounded-[34px] bg-[#eaf4ed] p-8 sm:p-12 lg:pl-20">
+        <h2 class="text-4xl font-extrabold text-[#111827]">About Us</h2>
+        <p class="mt-6 text-base leading-8 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's.
+        </p>
+        <p class="mt-4 text-base leading-8 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy.
+        </p>
+        <p class="mt-4 text-base leading-8 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <a href="#" class="mt-8 inline-flex rounded-full bg-[#22c55e] px-7 py-3 text-sm font-semibold text-white shadow-md transition hover:scale-105 hover:bg-[#16a34a]">
+          Read More
+        </a>
+      </div>
+    </section>
+
+    <section id="location" class="mx-auto max-w-7xl px-6 py-16 lg:px-10">
+      <div class="relative overflow-hidden rounded-[30px] bg-[#ececec]">
+        <img src="./img/map.png" alt="Map image" class="h-[560px] w-full object-cover opacity-85" />
+
+        <div class="absolute left-1/2 top-1/3 flex h-5 w-5 -translate-x-1/2 -translate-y-1/2 items-center justify-center">
+          <span class="absolute inline-flex h-16 w-16 rounded-full bg-[#22c55e]/20"></span>
+          <span class="h-5 w-5 rounded-full bg-[#22c55e]"></span>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 w-[92%] -translate-x-1/2 rounded-[28px] bg-white p-6 shadow-xl lg:w-[82%] lg:p-8">
+          <div class="grid gap-6 lg:grid-cols-[1.4fr_1fr_auto] lg:items-center">
+            <div>
+              <h3 class="text-3xl font-extrabold text-[#111827]">Location of our Hotels</h3>
+              <p class="mt-3 max-w-xl text-gray-500">
+                Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's.
+              </p>
+            </div>
+
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="h-14 rounded-full border border-gray-200 bg-[#fafafa] px-5 text-sm outline-none ring-0 placeholder:text-gray-400 focus:border-[#22c55e]"
+            />
+
+            <button class="h-14 rounded-full bg-[#22c55e] px-8 text-sm font-semibold text-white transition hover:bg-[#16a34a]">
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="mx-auto max-w-7xl px-6 pb-10 pt-16 lg:px-10">
+    <div class="grid gap-10 border-t border-gray-200 pt-12 md:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <h3 class="text-2xl font-extrabold text-[#111827]">Perfect Place</h3>
+        <p class="mt-4 max-w-xs text-sm leading-7 text-gray-500">
+          Lorem ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <div class="mt-5 flex gap-4 text-lg text-gray-500">
+          <a href="#" class="hover:text-[#22c55e]"><img src="./img/face.png" alt=""></a>
+          <a href="#" class="hover:text-[#22c55e]"><img src="./img/insta.png" alt=""></a>
+          <a href="#" class="hover:text-[#22c55e]"><img src="./img/google.png" alt=""></a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold text-[#111827]">Home</h4>
+        <ul class="mt-4 space-y-3 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-[#22c55e]">Booking</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">Facilities</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">Location</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold text-[#111827]">Help</h4>
+        <ul class="mt-4 space-y-3 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-[#22c55e]">About Us</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">Help center</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">Privacy policy</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-bold text-[#111827]">Get the app</h4>
+        <ul class="mt-4 space-y-3 text-sm text-gray-500">
+          <li><a href="#" class="hover:text-[#22c55e]">iOS app</a></li>
+          <li><a href="#" class="hover:text-[#22c55e]">Android app</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
